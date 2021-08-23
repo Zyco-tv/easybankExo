@@ -145,7 +145,7 @@ p {
   }
 
   #introduction {
-    background-image: url("https://svgshare.com/i/JsH.svg") !important;
+    background-image: url("images/bg-intro-desktop.svg") !important;
     background-repeat: no-repeat;
     background-position: 8% 112%;
   }
@@ -174,7 +174,7 @@ p {
   }
 
   #introduction {
-    background-image: url("https://svgshare.com/i/JsH.svg") !important;
+    background-image: url("images/bg-intro-desktop.svg") !important;
     background-repeat: no-repeat;
     background-position: 11% 112%;
   }
@@ -202,4 +202,50 @@ p {
   background: linear-gradient(90deg, #31d35c, #2bb7da) !important;
   font-size: 18px !important;
   display: block;
+}
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  #choose-easybank {
+    background-color: #f3f4f6 !important;
+  }
+
+  .double-gutter-md-left-padding {
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #choose-easybank {
+    background-color: #f3f4f6 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .gutter-md-left-padding {
+    padding-left: 15px !important;
+  }
+
+  .double-gutter-md-left-padding {
+    padding-left: 30px !important;
+  }
+}
+.card {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f3f4f6 !important;
+  border: none !important;
+  margin: 0 !important;
+  cursor: default !important;
+}
+
+.card h4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.card img {
+  width: 25% !important;
+}
+
+.card p {
+  width: 90%;
+  font-size: 16px !important;
 }
