@@ -249,3 +249,74 @@ p {
   width: 90%;
   font-size: 16px !important;
 }
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  #articles {
+    background-color: #fafafa !important;
+  }
+
+  .article-card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    width: 90%;
+    background-color: white !important;
+    margin: 7% auto 7% auto !important;
+  }
+
+  .article-card h5 {
+    font-size: 1.12rem !important;
+  }
+
+  .article-card .article-details {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #articles {
+    background-color: #fafafa !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .article-card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    width: 90%;
+    background-color: white !important;
+    margin: 7% 5px 7% 5px !important;
+    cursor: default !important;
+  }
+
+  .article-card h5 {
+    font-size: 1.12rem !important;
+  }
+
+  .article-card .article-details {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {
+  .article-card-odd {
+    margin-left: -1% !important;
+  }
+
+  .article-card-even {
+    margin-right: -1% !important;
+  }
+}
+h5:hover, h5:active {
+  color: #2bb7da !important;
+}
+
+.author-name {
+  font-size: 14px !important;
+}
+
+.article-card-text {
+  width: 80%;
+}
