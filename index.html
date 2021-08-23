@@ -13,7 +13,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <title> Easybank landing page | Frontend Mentor</title>
 
 </head>
@@ -22,7 +22,7 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
       <a class="navbar-brand" href="#">
-        <h1><img src="https://svgshare.com/i/Jnx.svg" alt="logo"></h1>
+        <h1><img src="images/logo.svg" alt="logo"></h1>
       </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,22 @@
       </div>
     </nav>
   </header>
-  
+  <div class="d-flex flex-direction-column flex-direction-md-row flex-wrap flex-wrap-md-nowrap">
+    <div id="introduction" class="container-fluid-md  w-md-50 order-md-3 overflow-hidden">
+      <div id="intro-img-holder" class="col-12 row justify-content-center m-0 p-0">
+        <img id="intro-img" class="img-fluid" src="images/image-mockups.png" alt="intro img">
+      </div>
+
+    </div>
+    <div class="container-md w-md-50 d-md-flex justify-content-center align-items-center flex-column">
+      <div class="col-md-10 offset-md-1 col-xl-8 offset-xl-0 double-gutter-md-left-padding ">
+      <h2 id="business-tagline"  class="text-center text-md-left">Next generation digital banking</h2>
+      <p class="text-center  text-md-left color-grayish-blue">Take your financial life online. Your Easybank account will be a one-stop-shop
+        for spending, saving, budgeting, investing, and much more.</p>
+      <button id="request-invite-btn" type="button" class="btn btn-lg rounded-pill text-white bg-green-cyan ml-auto mr-auto ml-md-0 mr-md-0 request-btns">Request Invite</button>
+        </div>
+    </div>
+  </div>
 </body>
 
 </html>
