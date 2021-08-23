@@ -320,3 +320,65 @@ h5:hover, h5:active {
 .article-card-text {
   width: 80%;
 }
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  #social-media-icons i {
+    color: white !important;
+    font-size: 26px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #social-media-icons i:hover, #social-media-icons i:active {
+    color: #2bb7da !important;
+  }
+
+  .footer-link {
+    width: 100% !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    padding-top: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #social-media-icons i {
+    color: white !important;
+    font-size: 24px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #social-media-icons i:hover, #social-media-icons i:active {
+    color: #2bb7da !important;
+  }
+
+  .footer-link {
+    width: 100% !important;
+    text-align: left !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    padding-top: 0.5rem;
+  }
+}
+.footer-link:active, .footer-link:hover {
+  color: #2bb7da !important;
+}
+
+footer {
+  background-color: #2d314d !important;
+}
+
+footer a {
+  text-decoration: none !important;
+}
+
+#footer-request-invite-btn {
+  background: linear-gradient(90deg, #31d35c, #2bb7da) !important;
+  font-size: 16px !important;
+  display: block;
+}
+
+#copyright-text {
+  font-size: 16px;
+  cursor: default !important;
+}
